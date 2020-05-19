@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MedicationApp</string>
+    <string name="emalHint">Email</string>
+    <string name="passwordHint">Password</string>
+    <string name="btnLogin">Sign in</string>
+    <string name="tvDashboard">Dashboard</string>
+    <string name="hello">Hello</string>
+    <string name="medicationManagementSystem">Medication Management System</string>
+    <string name="btnActiveDay">Active Day</string>
+    <string name="btnMonitorProgress">Monitor Progress</string>
+    <string name="registration">Registration</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="btnSignUp">Sign up</string>
+    <string name="tvPasswordInfo">Password must be atleast 8 charachters with a letter and number</string>
+    <string-array name="status">
+        <item>All</item>
+        <item>Pending</item>
+        <item>Taken</item>
+        <item>Missed</item>
+    </string-array>
+    <string name="activeDayInfo">Press and hold to set medication as active, you will receive a notification reminder when its time to take your medication.</string>
+    <string name="btnConfirm">Confirm Taken</string>
+    <string name="tvWelcome">Welcome</string>
+    <string name="btnLogout">Logout</string>
+    <string name="test.txt">test.txt</string>
+</resources>

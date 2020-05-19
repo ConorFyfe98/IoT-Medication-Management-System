@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvHello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28dp"
+        android:layout_marginTop="10px"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="106dp"
+        android:layout_height="119dp"
+        app:srcCompat="@drawable/logo" />
+
+
+    <Button
+        android:id="@+id/btnActiveDay"
+        android:drawableLeft="@drawable/ic_directions_walk_black_24dp"
+        android:drawablePadding="-20dp"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/btnActiveDay"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnMonitorProgress"
+        android:drawableLeft="@drawable/ic_check_black_24dp"
+        android:drawablePadding="-5dp"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/btnMonitorProgress"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150px"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/btnLogout"
+        android:textColor="@android:color/white" />
+
+
+</LinearLayout>
