@@ -1,0 +1,54 @@
+body,html {
+    height: 100%;
+	background-color:#f6f6f6;
+}
+
+a, a:link, a:visited {
+  color: #48871C;
+  text-decoration: none;
+}
+
+.fullHeight{
+	height:100%;
+}
+
+.form-control:focus {
+      border-color:#79AD24;
+	  box-shadow: inset 0 1px 1px rgba(159, 159, 56, 0.1), 0 0 12px rgba(159, 196, 56, 1.1);
+}
+
+
+.offBlack{
+	color:#757575;
+}
+
+.offWhite{
+	color:#f6f6f6;
+}
+
+.darkGreenBg{
+	background-color:#48871C;
+}
+
+.darkGreen{
+	color:#48871C;
+}
+
+.primaryGreenText{
+	color:#95C438;
+}
+
+.primaryGreen{
+	background-color:#95C438;
+}
+
+.primaryGreenBorder{
+	border-color:#95C438;
+}
+
+.sidePadding{
+	padding-left:5%;
+	padding-right:5%;
+}
+
+
